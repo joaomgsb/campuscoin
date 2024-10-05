@@ -1,0 +1,73 @@
+body {
+    text-shadow: 0 .05rem .1rem rgba(0, 0, 0, .15);
+    font-family: 'Open Sans';
+    background-color: aliceblue;
+    transition: background-color 0.5s ease-in-out;
+    font-family: 'poppins', sans-serif;
+  font-style: normal;
+  font-size: larger;
+
+}
+
+button a {
+    text-decoration: none; 
+    color: white; 
+}
+
+.main-content {
+    
+    transition: opacity 0.5s ease-in-out;
+}
+
+.btn {
+    background: rgba(9, 25, 176, 0.5);
+    text-shadow: none;
+    transition: background-color 0.3s ease-in-out, color 0.3s ease-in-out;
+    border-radius: 90px;
+}
+
+
+.cover-container {
+    max-width: 42rem;
+}
+
+.nav-masthead .nav-link {
+    color: rgb(88, 233, 75);
+    border-bottom: .25rem solid transparent;
+    transition: border-bottom-color 0.3s ease-in-out;
+}
+
+.nav-masthead .nav-link:hover,
+.nav-masthead .nav-link:focus {
+    border-bottom-color: rgba(12, 12, 12, 0.25);
+}
+
+.logo {
+    float: center;
+    margin-bottom: 0;
+}
+
+#parag {
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 250;
+    line-height: normal;
+}
+
+.btn-link {
+    background: none !important;
+    border: none;
+    padding: 0;
+    cursor: pointer;
+}
+
+.lead-component {
+    margin-top: 40%;
+}
+
+footer {
+    bottom: 0;
+    width: 100%;
+}
+
+

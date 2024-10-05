@@ -1,0 +1,203 @@
+/* style.css */
+.body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 50px;
+    margin: 0;
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+    position: relative;
+    top: 87px;
+}
+
+.controls {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 40px;
+}
+
+#playPauseBtn {
+    margin: 0;
+    width: 40px;
+    height: 40px;
+    border-radius: 5px;
+    border: 1px solid rgb(0, 81, 255);
+    cursor: pointer;
+}
+
+.carrossel {
+    overflow: hidden;
+    width: calc(100% - 45px); /* Ajuste a largura do carrossel considerando o botão de pausa */
+    height: 70px;
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+
+.carrossel-container {
+    display: flex;
+    width: 100%;
+}
+
+.carrossel-item {
+    min-width: 210px; /* Aumente a largura dos itens para conter todo o conteúdo em uma linha */
+    height: 40px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #f0f0f0;
+    border-left: 1px solid #ccc;
+    border-right: 1px solid #ccc;
+    box-sizing: border-box;
+    padding: 0 15px;
+}
+
+.abbreviation {
+    font-weight: bold;
+    margin-right: 5px;
+}
+
+.value {
+    margin: 5px 0;
+    margin-right: 5px;
+}
+
+.percentage {
+    color: black;
+}
+
+.positive {
+    color: green;
+}
+
+.negative {
+    color: red;
+}
+
+/* Estilos para o menu hambúrguer */
+.navbar-carrossel {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    top: 100px;
+}
+
+.menu-toggle {
+    display: none;
+    font-size: 30px;
+    cursor: pointer;
+    background: none;
+    border: none;
+    position: absolute;
+    right: 10px;
+    top: 10px;
+}
+
+#navMenu-carrossel {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    width: 100%;
+    height: 30px;
+    border: none;
+}
+.btn-pg-principal{
+    padding: 0px 15px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    background-color: aqua;
+    text-align: center;
+}
+.btn-sair{
+    padding: 0px 15px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    background-color: red;
+    color: #ccc;
+    text-align: center;
+}
+.data-btn {
+    padding: 0px 15px;
+    text-align: center;
+    border-radius: 5px;
+    border: 1px solid rgb(0, 81, 255);
+    cursor: pointer;
+}
+.data-btn.active {
+    background-color: blue;
+    color: white;
+}
+.mobile{
+    display: none;
+}
+.desktop{
+    display: block;
+}
+
+
+@media (max-width: 1920px) {
+    .navbar-carrossel {
+        position: relative;
+        top: 97px;
+        
+    }
+    .mobile{
+        display: block;
+    }
+    .desktop{
+        display: none;
+    }
+    .menu-toggle {
+        display: block;
+    }
+    #navMenu-carrossel {
+        display: none;
+        flex-direction: column;
+        align-items: center;
+        width: 313px;
+        position: absolute;
+        top: 30px; /* Ajuste o topo para evitar sobreposição */
+        right: 46px;
+        background: #fff;
+        z-index: 10;
+        
+    }
+    #navMenu-carrossel.show {
+        padding: 0px 10px;
+        height: 365px;
+        display: flex;
+        background-color: #F5F5F5 !important;
+        justify-content: center;
+        align-items: center;
+    }
+    .data-btn {
+        width: 100%;
+        padding: 10px 0;
+        text-align: center;
+        border-radius: 5px;
+        border: 1px solid rgb(0, 81, 255);
+        cursor: pointer;
+    }
+    .btn-pg-principal{
+        padding: 7px 30px;
+        margin: 5px;
+        position: absolute;
+        top: 13px;
+        right: 154px;
+        z-index: 11;
+
+    }
+    .btn-sair{
+        padding: 7px 30px;
+        margin: 5px;
+        position: absolute;
+        top: 13px;
+        right: 53px;
+        z-index: 11;
+    }
+}

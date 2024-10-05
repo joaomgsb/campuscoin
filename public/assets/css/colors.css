@@ -1,0 +1,27 @@
+:root{
+    --purple-light: #f5f6fa;
+    --purple-medium: #a0a3d6;
+    --purple-dark: #5559b7
+}
+
+/*backgrounds*/
+.bg-purple-light{
+    background-color: var(--purple-light);
+}
+.bg-purple-medium{
+    background-color: var(--purple-medium);
+}
+.bg-purple-dark{
+    background-color: var(--purple-dark);
+}
+
+/*colors*/
+.text-purple-light{
+    color: var(--purple-light);
+}
+.text-purple-medium{
+    color: var(--purple-medium);
+}
+.text-purple-dark{
+    color: var(--purple-dark);
+}

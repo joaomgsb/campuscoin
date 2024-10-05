@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" />
+    <link rel="stylesheet" href="assets/css/userprofile.css" />
+    <title>Profile Dropdown</title>
+  </head>
+  <body>
+    <header class="header-profile">
+      <img src="assets/img/Logo.png" alt="">
+      <div class="menu">
+        <nav class="navbar">
+          <div class="profile-dropdown">
+            <div onclick="toggle()" class="profile-dropdown-btn">
+              
+              <div class="profile-img"></div>
+              <span>
+                João  
+                <i class="fa-solid fa-angle-down arrow"></i>   
+              </span>
+            </div>
+            
+            <ul class="profile-dropdown-list">
+              <li class="profile-dropdown-list-item">
+                <a href="editprofile.html">
+                  <i class="fa-regular fa-user"></i>
+                  Editar Perfil
+                </a>
+              </li>
+              <li class="profile-dropdown-list-item">
+                <a href="#">
+                  <i class="fa-regular fa-envelope"></i>
+                  Caixa de entrada
+                </a>
+              </li>
+              <li class="profile-dropdown-list-item">
+                <a href="#">
+                  <i class="fa-solid fa-chart-line"></i>
+                  Análise
+                </a>
+              </li>
+              <li class="profile-dropdown-list-item">
+                <a href="#">
+                  <i class="fa-solid fa-sliders"></i>
+                  Configurações
+                </a>
+              </li>
+              <li class="profile-dropdown-list-item">
+                <a href="#">
+                  <i class="fa-regular fa-circle-question"></i>
+                  Ajuda e suporte
+                </a>
+              </li>
+              <li class="profile-dropdown-list-item last-item">
+                <a href="#">
+                  <i class="fa-solid fa-arrow-right-from-bracket"></i>
+                  Sair
+                </a>
+              </li>
+            </ul>
+          </div>
+        </nav>
+      </div>
+    </header>
+
+    <script src="assets/script/userprofile.js"></script>
+  </body>
+</html>

@@ -1,0 +1,336 @@
+:root {
+    font-family: 'poppins', sans-serif;
+  font-style: normal;
+  font-size: larger;
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-text-size-adjust: 100%;
+}
+
+.swal2-modal .swal2-html-container{
+    margin: 0 !important;
+    display: flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+}
+
+.swal2-modal .swal2-html-container canvas{
+    position: absolute !important;
+}
+
+
+body {
+    background-color: aliceblue;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+    margin-top: 60px;
+}
+
+.header{
+    width: calc(100vw - 20px);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    position: fixed;
+
+}
+.header img{
+    width: 80px;
+    margin: 0px 20px;
+}
+
+.menu{
+    width: 170px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-right: 50px;
+}
+.menu a{
+    text-decoration: none;
+    color: #333333;
+    font-size: 18px;
+}
+
+.section{
+    width: 100%;
+    height: 55vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 25px;
+}
+.container {
+    max-width: 1400px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: aliceblue;
+    border-radius: 25px;
+}
+.header-body{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    max-width: 800px;
+}
+
+header>h1 {
+    text-align: center;
+    color: #333;
+    font-size: 48px;
+    margin: 0;
+    margin-top: 40px;
+}
+header>p{
+    text-align: center;
+    color: #666666; 
+    font-size: 16px;
+}
+
+.card{
+    width: 100%;
+    max-width: 500px;
+    padding: 24px;
+    background-color: #FFFFFF;
+    border-radius: 15px;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.185);
+    margin: 10px;
+}
+#loginForm label{
+    font-size: 19px;
+    color: #333333;
+    font-family: "Inter";
+    font-weight: 200;
+}
+#loginForm input{
+    width: calc(100% - 48px);
+    margin: 10px 0 16px;
+    padding: 8px 16px;
+    border: 1px solid rgb(204, 204, 204);
+    border-radius: 6px;
+}
+
+#registerForm label{
+    font-size: 19px;
+    color: #333333;
+    font-family: "Inter";
+    font-weight: 200;
+}
+#registerForm input{
+    width: calc(100% - 48px);
+    margin: 10px 0 16px;
+    padding: 8px 16px;
+    border: 1px solid rgb(204, 204, 204);
+    border-radius: 6px;
+}
+
+.label img{
+    width: 20px;
+    margin-right: 10px;
+}
+.label{
+    display: flex;
+    justify-content: left;
+    align-items: center;
+}
+
+
+.action{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.action button{
+    padding: 8px 16px;
+    margin: 10px 0;
+    background-color: #65DCFE;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #ffffff;
+    font-size: 16px;
+    font-weight: 600;
+    border: none;
+    border-radius: 10px;
+    box-shadow: 2px 2px 5px 1px rgba(0, 0, 0, 0.329);
+    cursor: pointer;
+}
+.action button:hover{
+    background-color: #2ac6f1;
+    box-shadow: 2px 2px 5px 1px rgba(0, 0, 0, 0.568);
+}
+.action img{
+    width: 27px;
+    margin-left: 10px;
+}
+
+
+/* Quiz */
+
+.section-quiz{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 100px;
+} 
+
+.header-body-quiz{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    max-width: 800px;
+}
+
+.header-body-quiz h1{
+    margin: 0;
+}
+
+#quiz {
+    margin-top: 24px;
+}
+
+.quiz-item {
+    margin-top: 24px;
+    border: 1px solid #66666649;
+    border-radius: 6px;
+    overflow: hidden;
+}
+
+.quiz-item h3 {
+    margin: 0;
+    padding: 16px 20px;
+    color: #333333;
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    background-color: #65DCFE;
+}
+
+.quiz-item dl {
+    padding: 20px 24px;
+    display: grid;
+    gap: 8px;
+    color: #333333;
+}
+
+.quiz-item dl dt {
+    font-size: 14px;
+    line-height: 24px;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+input[type="radio"] {
+    all: unset;
+    border: 1px solid #66666649;
+    width: 16px;
+    height: 16px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+input[type="radio"]:checked {
+    border: 1px solid #666666;
+}
+
+input[type="radio"]:checked::before {
+    content: "";
+    width: 10px;
+    height: 10px;
+    background-color: #666666;
+    border-radius: 50%;
+}
+
+#resultado {
+    text-align: center;
+    background-color: #65DCFE;
+    color: #333;
+    margin-top: 20px;
+    padding: 20px;
+    border-radius: 6px;
+}
+
+#calcular {
+    display: block;
+    margin: 20px auto;
+    padding: 10px 20px;
+    font-size: 16px;
+    color: #f1f5f9;
+    background-color: #333;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+.button-link {
+    display: block;
+    margin: 20px auto;
+    padding: 10px 20px;
+    font-size: 16px;
+    color: #f1f5f9;
+    background-color: #333;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    width: fit-content;
+}
+
+@media (max-width: 768px) {
+    .header{
+        background-color: #F5F5F5;
+    }
+    .menu-quiz{
+        justify-content: right;
+    }
+}
+
+@media (max-width: 576px) {
+    .card{
+        width: 70%;
+        
+    }
+    .section{
+        width: 100%;
+        height: 90vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .header-body h1{
+        font-size: 36px;
+    }
+    .menu{
+        width: 140px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-right: 20px;
+    }
+    .menu a{
+        text-decoration: none;
+        color: #333333;
+        font-size: 16px;
+    }
+    .menu-quiz{
+        justify-content: right;
+    }
+    .header-body-quiz h1{
+        font-size: 36px;
+    }
+    #quiz {
+        width: 90%;
+    }
+    
+}

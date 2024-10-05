@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Teste Seu Perfil de Investidor</title>
+    <link rel="stylesheet" href="assets/css/login.css">
+</head>
+
+<body>
+    <header class="header">
+        <img src="assets/img/Logo.png" alt="">
+        <div class="menu menu-quiz">
+            <a href="">Sair</a>
+        </div>
+    </header>
+
+    <div class="section-quiz">
+        <div class="container">
+            <header class="header-body-quiz">
+                <h1>Teste seu perfil de investidor</h1>
+                <p>Antes de acessar o nosso site, faça o teste abaixo para identificarmos seu perfil de investidor.</p>
+                <p>Com resultado obtido você consegue navegar em nosso site com maior facilidade e segunindo seu perfil de investidor</p>
+            </header>
+        </div>
+    
+        <div id="quiz"></div>
+    
+        <template id="quiz-template">
+            <div class="quiz-item">
+                <h3>Pergunta</h3>
+                <dl></dl>
+            </div>
+        </template>
+    
+        <div id="resultado">
+            <strong>Seu Perfil de Investidor:</strong>
+            <span>Resultado não calculado</span>
+        </div>
+    
+        <button id="calcular">Calcular Perfil</button>
+        <a id="cadastro" class="button-link" href="cadastro.html">Ir para a área de Cadastro</a>
+    </div>
+
+    <script src="assets/script/quiz.js"></script>
+
+</body>
+
+</html>

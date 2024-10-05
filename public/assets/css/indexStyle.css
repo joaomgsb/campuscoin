@@ -1,0 +1,145 @@
+body{
+    background-color: #EEEEEE !important;
+    margin: 0;
+    padding: 0;
+    font-family: 'poppins', sans-serif !important;
+}
+.container-cards-pg-inicial{
+    background-image: url("../img/card.png");
+    background-size: contain; 
+    background-position: center; 
+    background-repeat: no-repeat;
+    width: 300px;
+    height: 390px;
+    margin: 0;
+    padding: 0;
+    position: relative;
+    margin: 2%;
+    transition: 0.5s ease-in-out;
+    cursor: pointer;
+}
+.container-cards-pg-inicial:hover{
+    transform: scale(1.05);
+}
+.container-cards-pg-inicial p{
+    font-size: 14px !important;
+}
+
+.thumb-cards-pg-inicial{
+    width: 300px;
+    height: 180px;
+    background-color: transparent;
+    border-bottom: 1px solid #2AC6F1;
+    border-radius: 8px 8px 0 0;
+    margin: 0;
+}
+.thumb-cards-pg-inicial img{
+    width: 299px;
+    height:179px;
+    border-radius: 7px 7px 0 0;
+    transform: translate(0.5px, 0.5px);
+}
+.title-cards-pg-inicial, .description-cards-pg-inicial{
+    padding: 10px;
+    padding-left: 20px;
+}
+.title-cards-pg-inicial h4{
+    margin: 0;
+    margin-top: 10px;
+}
+.call-to-action-cards-pg-inicial{
+    padding: 10px;
+    padding-left: 20px;
+    position: absolute;
+    bottom: 10px;
+}
+.button-cards-pg-inicial{
+    width: 73px;
+    height: 73px;
+    border-radius: 50%;
+    position: absolute;
+    right: 4px;
+    bottom: 9px;
+}
+.button-cards-pg-inicial button{
+    width: 73px;
+    height: 73px;
+    background-color: #2AC6F1;
+    border-radius: 50%;
+    border: none;
+    position: relative;
+    top: 5px;
+    transition: 0.3s ease-in-out;
+}
+.button-cards-pg-inicial button:hover{
+    transform: scale(1.05);
+    
+}
+.button-cards-pg-inicial img{
+    position: relative;
+    top: 5px;
+    left: 5px;
+}
+#data-container{
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
+    row-gap: 80px;
+    justify-items: center; 
+    align-items: center;
+}
+.shop-nav{
+    position: relative; 
+    top: 100px;
+}
+.shop-nav button{
+    border: 1px solid #2AC6F1;
+    border-radius: 10px;
+    padding: 8px 16px;
+    margin-bottom: 50px;
+    background-color: transparent;
+    transition: 0.3s ease-in-out;
+}
+.shop-nav button:hover{
+    transform: scale(1.05);
+}
+.container header {
+    padding: 0;
+    max-width: 800px;
+    margin: 100px auto 100px;
+}
+.container{
+    background-color: #F5F5F5 !important;
+    padding-bottom: 40px;
+}
+
+header > h2, h1 {
+    text-align: center;
+    color: #333;
+    font-size: 48px;
+    font-weight: bold;
+    margin: 0;
+    margin-top: 40px;
+
+}
+
+header > p {
+    text-align: center;
+    color: #666666;
+    font-size: 16px;
+
+}
+
+footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    padding: 20px;
+    background-color: #DBEEFF;
+}
+
+footer p{
+    margin: 0;
+    padding: 0;
+}

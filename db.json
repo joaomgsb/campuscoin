@@ -1,0 +1,218 @@
+{
+  "users": [
+    {
+      "email": "marco@gmail.com",
+      "password": "123",
+      "id": 1
+    },
+    {
+      "email": "luiz@hotmail.com",
+      "password": "123",
+      "id": 2
+    },
+    {
+      "email": "viado@gmail.com",
+      "password": "123",
+      "id": 3
+    },
+    {
+      "email": "vitor@gmail.com",
+      "password": "123",
+      "id": 4
+    },
+    {
+      "email": "stefano@gmail.com",
+      "password": "123",
+      "id": 5
+    }
+  ],
+  "highlights": [
+    {
+      "url": "https://www.youtube.com/embed/wCH6JkyD4d4",
+      "describe": "Rodrigo Goes em alta com a nova formula do Suco Veja já.",
+      "title": "Rodrigo Goes"
+    },
+    {
+      "url": "https://www.youtube.com/embed/neK8MtkySKU",
+      "describe": "Entenda como minerar bitcoin da maneira certa!",
+      "title": "Minerar Bitcoin"
+    },
+    {
+      "url": "https://www.youtube.com/embed/7avdgcSATXw",
+      "describe": "Entenda como funciona a tecnologia por tras do bitcoin",
+      "title": "O que é BlockChain?"
+    },
+    {
+      "url": "https://www.youtube.com/embed/zE3MhwFUpnA",
+      "describe": "Bolsa de Valores",
+      "title": "Entenda como funciona a Bolsa de Valores"
+    },
+    {
+      "url": "https://www.youtube.com/embed/qCk0qe6bF0E",
+      "describe": "Entenda como funciona o Ethereum, uma alternativa ao bitcoin",
+      "title": "Ethereum"
+    },
+    {
+      "url": "https://www.youtube.com/embed/LZZk9pfItVk",
+      "describe": "Aprenda a escolher os melhores Fundos Imobiliários e começar a ganhar dinheiro",
+      "title": "Fundos Imobiliários "
+    },
+    {
+      "url": "https://www.youtube.com/embed/G9iH6ppaeEQ",
+      "describe": "Aprenda o passo a passo para começar a ganhar dinheiro com renda fixa",
+      "title": "Renda Fixa"
+    },
+    {
+      "url": "https://www.youtube.com/embed/xBFhvYnMU3g",
+      "describe": "Aprenda sobre Renda Variável e como começar a investir nela",
+      "title": "Renda Variável"
+    },
+    {
+      "url": "https://www.youtube.com/embed/y2sBkIX72-g",
+      "describe": "Não sabe nada de tesouro direto? Esse vídeo é para você! Aprenda a investir em tesouro direto e comece a ganhar dinheiro",
+      "title": "Tesouro Direto"
+    }
+  ],
+  "videos": [
+    {
+      "icon": "fa-youtube",
+      "url": "https://www.youtube.com/embed/kHJC3ioC-4o",
+      "name": "O que é Renda fixa?",
+      "id": 0
+    },
+    {
+      "icon": "fa-youtube",
+      "url": "https://www.youtube.com/embed/6KxDV3gCW_Q",
+      "name": "Investimentos de perfil Moderado",
+      "id": 1
+    },
+    {
+      "icon": "fa-youtube",
+      "url": "https://www.youtube.com/embed/51gf8-REjE8",
+      "name": "O moderado",
+      "id": 2
+    },
+    {
+      "icon": "fa-youtube",
+      "url": "https://www.youtube.com/embed/g1M-vDbbZ6s",
+      "name": "Melhores investimentos",
+      "id": 3
+    },
+    {
+      "icon": "fa-youtube",
+      "url": "https://www.youtube.com/embed/xBFhvYnMU3g",
+      "name": "O que é renda variavel?",
+      "id": 5
+    },
+    {
+      "icon": "fa-youtube",
+      "url": "https://www.youtube.com/embed/8K_eJ_8vqHM",
+      "name": "Bolsa de Valores",
+      "id": 10
+    },
+    {
+      "icon": "fa-youtube",
+      "url": "https://www.youtube.com/embed/fc8T4qx34W4",
+      "name": "Fundos Imobiliarios",
+      "id": 11
+    },
+    {
+      "icon": "fa-youtube",
+      "url": "https://www.youtube.com/embed/jx0o0Ttxl8o",
+      "name": "formula1",
+      "id": 12
+    }
+  ],
+  "comments": [
+    {
+      "id-video": 0,
+      "name": "João",
+      "date": "1 month ago",
+      "comment": "Impressive! Though it seems the drag feature could be improved. But overall it looks incredible. You've nailed the design and the responsiveness at various breakpoints works really well",
+      "profile": "avatar.png",
+      "likes": 15,
+      "id": 0
+    },
+    {
+      "id-video": 0,
+      "name": "Beulah B. Garman",
+      "date": "Now",
+      "comment": "Lorem ipsum sit at donec fermentum taciti, curae fringilla phasellus id dui, conubia eleifend duis nulla quam. quisque nostra quis rutrum tortor in quisque curabitur, nulla nisi eros curabitur porttitor rutrum aenean risus, dui justo vulputate at netus dictum. pharetra amet a id molestie etiam dapibus tempor sem aliquam taciti, fusce sapien libero et auctor aptent amet senectus in, ullamcorper sagittis auctor risus himenaeos feugiat urna egestas sagittis. luctus enim diam senectus turpis fames adipiscing pretium sed habitant vel augue ac, ultrices feugiat per diam fames nunc sem lobortis ut cursus",
+      "profile": "avatar1.png",
+      "likes": 300,
+      "id": 1
+    },
+    {
+      "id-video": 0,
+      "name": "Dianna E. Sims",
+      "date": "1 week latter",
+      "comment": "Lorem ipsum sit at donec fermentum taciti, curae fringilla phasellus id dui, conubia eleifend duis nulla quam. quisque nostra quis rutrum tortor in quisque curabitur, nulla nisi eros curabitur porttitor rutrum aenean risus, dui justo vulputate at netus dictum. pharetra amet a id molestie etiam dapibus tempor sem aliquam taciti, fusce sapien libero et auctor aptent amet senectus in, ullamcorper sagittis auctor risus himenaeos feugiat urna egestas sagittis. luctus enim diam senectus turpis fames adipiscing pretium sed habitant vel augue ac, ultrices feugiat per diam fames nunc sem lobortis ut cursus",
+      "profile": "avatar2.png",
+      "likes": 600,
+      "id": 2
+    },
+    {
+      "id-video": 1,
+      "name": "You",
+      "date": "Now",
+      "comment": "bom video",
+      "profile": "avatar.png",
+      "likes": 0,
+      "id": 3
+    },
+    {
+      "id-video": 0,
+      "name": "You",
+      "date": "Now",
+      "comment": "Muito bom video, excelente!!!",
+      "profile": "avatar.png",
+      "likes": 0,
+      "id": 4
+    },
+    {
+      "id-video": 0,
+      "name": "You",
+      "date": "Now",
+      "comment": "bom video",
+      "profile": "avatar.png",
+      "likes": 0,
+      "id": 5
+    },
+    {
+      "id-video": 2,
+      "name": "You",
+      "date": "Now",
+      "comment": "muito bom",
+      "profile": "avatar.png",
+      "likes": 0,
+      "id": 6
+    },
+    {
+      "id-video": 0,
+      "name": "You",
+      "date": "Now",
+      "comment": "bom video",
+      "profile": "avatar.png",
+      "likes": 0,
+      "id": 7
+    },
+    {
+      "id-video": 2,
+      "name": "You",
+      "date": "Now",
+      "comment": "BOM VIDEO",
+      "profile": "avatar.png",
+      "likes": 0,
+      "id": 8
+    },
+    {
+      "id-video": 3,
+      "name": "You",
+      "date": "Now",
+      "comment": "bom video",
+      "profile": "avatar.png",
+      "likes": 0,
+      "id": 9
+    }
+  ]
+}

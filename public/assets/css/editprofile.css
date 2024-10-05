@@ -1,0 +1,173 @@
+body {
+    background: #f5f5f5;
+    margin-top: 20px;
+}
+
+.header{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: var(--shadow);
+    background-color: var(--white);
+
+}
+.header img{
+    width: 80px;
+    margin: 0px 20px;
+}
+.menu{
+    margin-right: 50px;
+    padding: 5px 15px;
+    font-size: 0.9rem;
+    font-weight: 500;
+    border-radius: 10px;
+    cursor: pointer;
+    border: 1px solid #2ac6f1;
+    transition: box-shadow 0.2s ease-in, background-color 0.2s ease-in, border 0.3s;
+}
+.menu a{
+    text-decoration: none;
+    color:#0f5568;
+    font-size: 18px;
+}
+
+.menu a:hover{
+    text-decoration: none;
+    color: #333333;
+    font-size: 18px;
+}
+
+.card{
+    border-radius: 10px !important;
+    border: 1px solid #18181B !important;
+    border-radius: 13px !important;
+}
+.menu-card{
+    background-color: #18181B;
+    width: 200px;
+    padding: 5px;
+    border-radius: 10px !important;
+    margin-right: 20px;
+}
+
+.list-group-item:nth-child(1){
+    border: none!important;
+    background-color: transparent !important;
+    margin: 1px 0 !important;
+    border-radius:10px !important;
+}
+.list-group-item{
+    border: none!important;
+    background-color: transparent !important;
+    margin: 1px 0 !important;
+    border-radius: 10px !important;
+    font-weight: bold;
+    color: white !important;
+}
+
+.list-group-item:hover{
+    background: #2ac6f1c4 !important;
+    color: white !important;
+}
+
+html:not(.dark-style) .account-settings-links .list-group-item.active {
+    background: #2ac6f1c4 !important;
+    color: white !important;
+}
+
+.btn {
+    cursor: pointer;
+    padding: 3px 20px !important;
+    border: 1px solid #18181B!important;
+    color: #18181B !important;
+    font-weight: 500 !important;
+}
+
+.btn:hover {
+    color: white !important;
+    background-color: #2ac6f1c4 !important;
+}
+
+.btn-save {
+    background-color: #2ac6f167 !important;
+}
+
+.btn-last{
+    margin-bottom: 20px;
+}
+
+.formats-img{
+    color:#00000069
+}
+
+.img-geral {
+    width : 80px !important;
+    height: auto;
+    border-radius: 10px;
+    border: 1px solid #2ac6f1c4 ;
+    padding: 1px;
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.226);
+}
+
+.card-body:nth-child(1){
+    padding-bottom: 0 !important;
+}
+
+.form-label{
+    color: rgb(0, 0, 0) !important
+}
+
+.form-group input{
+    color: rgba(0, 0, 0, 0.425) !important;
+    border: 1px solid rgb(0, 0, 0) !important;
+}
+.form-group textarea{
+    color: rgba(0, 0, 0, 0.425) !important;
+    border: 1px solid rgb(0, 0, 0) !important;
+}
+.form-group select{
+    color: rgba(0, 0, 0, 0.425) !important;
+    border: 1px solid rgb(0, 0, 0) !important;
+}
+
+label.btn {
+    margin-bottom: 0;
+}
+
+.account-settings-fileinput {
+    position  : absolute;
+    visibility: hidden;
+    width     : 1px;
+    height    : 1px;
+    opacity   : 0;
+}
+
+.btn-conections{
+    width: 220px;
+}
+
+.google-connection{
+    font-size: 1rem !important;
+    cursor: pointer;
+    padding: 3px 20px !important;
+    border: 1px solid #18181B!important;
+    color: #18181B !important;
+    font-weight: 500 !important;
+    border-radius: 7px;
+    text-decoration: none !important;
+}
+
+.google-connection:hover {
+    color: white !important;
+    background-color: #2ac6f1c4 !important;
+}
+
+@media (max-width: 768px) {
+    .menu-card{
+        background-color: #18181B;
+        width: 100%;
+        margin-right: 0px;
+        margin-bottom: 40px;
+    }
+}

@@ -1,0 +1,285 @@
+
+<!--Website: wwww.codingdung.com-->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Account Settings</title>
+    <link rel="stylesheet" href="assets/css/editprofile.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.0/dist/css/bootstrap.min.css" rel="stylesheet">
+</head>
+
+<body>
+    <header class="header">
+        <img src="assets/img/Logo.png" alt="">
+        <div class="menu btn">
+            <a href="index.html">Home</a>
+        </div>
+    </header>
+    <div class="container light-style flex-grow-1 container-p-y">
+        <h4 class="font-weight-bold py-3 mb-4">
+            Configurações de Conta
+        </h4>
+        <div class="card ">
+            <div class="row no-gutters row-bordered row-border-light">
+                <!-- menu -->
+                <div class="menu-card">
+                    <div class="list-group list-group-flush account-settings-links">
+                        <a class="list-group-item list-group-item-action active" data-toggle="list"
+                            href="#account-general">Geral</a>
+                        <a class="list-group-item list-group-item-action" data-toggle="list"
+                            href="#account-change-password">Mudar senha</a>
+                        <a class="list-group-item list-group-item-action" data-toggle="list"
+                            href="#account-info">Informações</a>
+                        <a class="list-group-item list-group-item-action" data-toggle="list"
+                            href="#account-social-links">Links sociais</a>
+                        <a class="list-group-item list-group-item-action" data-toggle="list"
+                            href="#account-connections">Conexões</a>
+                        <a class="list-group-item list-group-item-action" data-toggle="list"
+                            href="#account-notifications">Notificações</a>
+                    </div>
+                </div>
+                <!-- menu -->
+                 
+                <div class="col-md-9">
+                    <div class="tab-content">
+
+                        <!-- geral -->
+                        <div class="tab-pane fade active show" id="account-general">
+                            <div class="card-body media align-items-center">
+                                <img src="assets/img/_MG_1952.JPG" alt
+                                    class="d-block img-geral">
+                                <div class="media-body ml-4">
+                                    <label class="btn btn-outline-primary">
+                                        Nova Foto
+                                        <input type="file" class="account-settings-fileinput">
+                                    </label> &nbsp;
+                                    <button type="button" class="btn btn-default md-btn-flat">Limpar</button>
+                                    <div class="formats-img small mt-1">JPG, GIF ou PNG permitidos. Tamanho máximo de 800K</div>
+                                </div>
+                            </div>
+
+                            <div class="card-body">
+                                <div class="form-group">
+                                    <label class="form-label">Nome</label>
+                                    <input id="fullname" type="text" class="form-control" value="João Mateus">
+                                </div>
+                                <div class="form-group">
+                                    <label class="form-label">E-mail</label>
+                                    <input id="email" type="text" class="form-control mb-1" value="joaomgsb@gmail.com">
+                                    <div class="alert alert-warning mt-3 d-none "> <!-- d-none para esconder o alerta, retirar somente quando o alerta tiver que ser exibido-->
+                                        Seu e-mail não foi confirmado. Por favor, verifique sua caixa de entrada.<br>
+                                        <a href="javascript:void(0)">Reenviar confirmação</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- geral -->
+
+                        <!-- password -->
+                        <div class="tab-pane fade" id="account-change-password">
+                            <div class="card-body pb-2">
+                                <div class="form-group">
+                                    <label class="form-label">Senha atual</label>
+                                    <input type="password" class="form-control">
+                                </div>
+                                <div class="form-group">
+                                    <label class="form-label">Nova senha</label>
+                                    <input type="password" class="form-control">
+                                </div>
+                                <div class="form-group">
+                                    <label class="form-label">Repita a nova senha</label>
+                                    <input type="password" class="form-control">
+                                </div>
+                            </div>
+                        </div>
+                        <!-- password -->
+
+                        <!-- info -->
+                        <div class="tab-pane fade" id="account-info">
+                            <div class="card-body pb-2">
+                                <div class="form-group">
+                                    <label class="form-label">Bio</label>
+                                    <textarea class="form-control"
+                                        rows="5">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris nunc arcu, dignissim sit amet sollicitudin iaculis, vehicula id urna. Sed luctus urna nunc. Donec fermentum, magna sit amet rutrum pretium, turpis dolor molestie diam, ut lacinia diam risus eleifend sapien. Curabitur ac nibh nulla. Maecenas nec augue placerat, viverra tellus non, pulvinar risus.</textarea>
+                                </div>
+                                <div class="form-group">
+                                    <label class="form-label">Aniversário</label>
+                                    <input type="text" class="form-control" value="26/06/2004">
+                                </div>
+                                <div class="form-group">
+                                    <label class="form-label">Nacionalidade</label>
+                                    <select class="custom-select">
+                                        <option>USA</option>
+                                        <option selected>Canada</option>
+                                        <option>UK</option>
+                                        <option>Brazil</option>
+                                        <option>France</option>
+                                    </select>
+                                </div>
+                            </div>
+                            <div class="card-body pb-2" style="padding-top: 0px !important;">
+                                <div class="form-group">
+                                    <label class="form-label">Celular</label>
+                                    <input type="text" class="form-control" value="(31) 98580-4492">
+                                </div>
+                                <div class="form-group">
+                                    <label class="form-label">Website</label>
+                                    <input type="text" class="form-control" value>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- info -->
+
+                        <!-- social -->
+                        <div class="tab-pane fade" id="account-social-links">
+                            <div class="card-body pb-2">
+                                <div class="form-group">
+                                    <label class="form-label">Twitter</label>
+                                    <input type="text" class="form-control" value="https://twitter.com/user">
+                                </div>
+                                <div class="form-group">
+                                    <label class="form-label">Facebook</label>
+                                    <input type="text" class="form-control" value="https://www.facebook.com/user">
+                                </div>
+                                <div class="form-group">
+                                    <label class="form-label">Google+</label>
+                                    <input type="text" class="form-control" value>
+                                </div>
+                                <div class="form-group">
+                                    <label class="form-label">LinkedIn</label>
+                                    <input type="text" class="form-control" value>
+                                </div>
+                                <div class="form-group">
+                                    <label class="form-label">Instagram</label>
+                                    <input type="text" class="form-control" value="https://www.instagram.com/user">
+                                </div>
+                            </div>
+                        </div>
+                        <!-- social -->
+
+                        <!-- connections -->
+                        <div class="tab-pane fade" id="account-connections">
+                            <div class="card-body" style="margin-bottom: 20px !important;">
+                                <button type="button" class="btn btn-conections">Conectar ao
+                                    <strong>Twitter</strong></button>
+                            </div>
+                            <hr class="border-light m-0">
+
+                            <div class="card-body">
+                                <h5 class="mb-2">
+                                    <a href="javascript:void(0)" class="float-right text-muted text-tiny google-connection">
+                                        <i class="ion ion-md-close"></i> Remover
+                                    </a>
+                                    <i class="ion ion-logo-google text-google"></i>
+                                    Você está conectado ao Google:
+                                </h5>
+                                <a href="/cdn-cgi/l/email-protection" class="__cf_email__ btn btn-conections"
+                                    data-cfemail="f9979498818e9c9595b994989095d79a9694">email&#160;protegido</a>
+                            </div>
+
+                            
+                            <hr class="border-light m-0">
+                            <div class="card-body">
+                                <button type="button" class="btn btn-conections">Conectar ao
+                                    <strong>Facebook</strong></button>
+                            </div>
+
+
+                            <hr class="border-light m-0">
+                            <div class="card-body">
+                                <button type="button" class="btn btn-conections">Conectar ao
+                                    <strong>Instagram</strong></button>
+                            </div>
+                        </div>
+                        <!-- connections -->
+
+                        <!-- notifications -->
+                        <div class="tab-pane fade" id="account-notifications">
+                            <div class="card-body pb-2">
+                                <h6 class="mb-4">Atividade</h6>
+                                <div class="form-group">
+                                    <label class="switcher">
+                                        <input type="checkbox" class="switcher-input" checked>
+                                        <span class="switcher-indicator">
+                                            <span class="switcher-yes"></span>
+                                            <span class="switcher-no"></span>
+                                        </span>
+                                        <span class="switcher-label">Envie-me um e-mail quando alguém comentar meu artigo</span>
+                                    </label>
+                                </div>
+                                <div class="form-group">
+                                    <label class="switcher">
+                                        <input type="checkbox" class="switcher-input" checked>
+                                        <span class="switcher-indicator">
+                                            <span class="switcher-yes"></span>
+                                            <span class="switcher-no"></span>
+                                        </span>
+                                        <span class="switcher-label">Envie-me um e-mail quando alguém responder no meu tópico do fórum</span>
+                                    </label>
+                                </div>
+                                <div class="form-group">
+                                    <label class="switcher">
+                                        <input type="checkbox" class="switcher-input">
+                                        <span class="switcher-indicator">
+                                            <span class="switcher-yes"></span>
+                                            <span class="switcher-no"></span>
+                                        </span>
+                                        <span class="switcher-label">Envie-me um e-mail quando alguém me seguir</span>
+                                    </label>
+                                </div>
+                            </div>
+                            <hr class="border-light m-0">
+                            <div class="card-body pb-2">
+                                <h6 class="mb-4">Aplicativo</h6>
+                                <div class="form-group">
+                                    <label class="switcher">
+                                        <input type="checkbox" class="switcher-input" checked>
+                                        <span class="switcher-indicator">
+                                            <span class="switcher-yes"></span>
+                                            <span class="switcher-no"></span>
+                                        </span>
+                                        <span class="switcher-label">Notícias e anúncios</span>
+                                    </label>
+                                </div>
+                                <div class="form-group">
+                                    <label class="switcher">
+                                        <input type="checkbox" class="switcher-input">
+                                        <span class="switcher-indicator">
+                                            <span class="switcher-yes"></span>
+                                            <span class="switcher-no"></span>
+                                        </span>
+                                        <span class="switcher-label">Atualizações semanais de produtos</span>
+                                    </label>
+                                </div>
+                                <div class="form-group">
+                                    <label class="switcher">
+                                        <input type="checkbox" class="switcher-input" checked>
+                                        <span class="switcher-indicator">
+                                            <span class="switcher-yes"></span>
+                                            <span class="switcher-no"></span>
+                                        </span>
+                                        <span class="switcher-label">Resumo semanal do blog</span>
+                                    </label>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- notifications -->
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="text-right mt-3">
+            <button type="button" class="btn btn-save btn-last">Salvar alterações</button>&nbsp;
+            <button type="button" class="btn btn-last">Cancelar</button>
+        </div>
+    </div>
+    <script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script>
+    <script src="https://code.jquery.com/jquery-1.10.2.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script type="module" src="assets/script/editprofile.js"></script>
+</body>
+
+</html>

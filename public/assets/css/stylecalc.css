@@ -1,0 +1,158 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-size: larger;
+    margin: 0;
+    padding: 0;
+    background-color: aliceblue;
+  }
+  
+
+/* header da pagina principal */
+
+  
+.shop-header {
+  font-family: 'poppins', sans-serif;
+  text-align: center;
+  padding: 1em;
+  background-color: #f8f9fa;
+  margin-bottom: 1em;
+  border-radius: 15px; /* Arredondar bordas */
+  position: fixed;
+  width: 100%;
+  top: 0;
+  left: 0;
+  z-index: 10000;
+  transition: padding 0.3s ease; /* Transição suave */
+}
+
+.shop-nav a {
+  color: #007bff;
+  text-decoration: none;
+  padding: 8px;
+  border-radius: 15px; /* Arredondar bordas */
+}
+  
+  
+  .small-header {
+    padding: 0.5em; /* Reduzir ainda mais o padding */
+    font-size: 0.8em; /* Reduzir o tamanho da fonte */
+  }
+  
+  .shop-title {
+    margin: 0;
+  }
+  
+  
+  .shop-nav a:hover {
+    text-decoration: underline;
+  }
+
+
+/* end header */
+
+
+
+  .calculators-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    padding: 20px;
+    flex-wrap: wrap;
+    margin-top: 50px;  
+  }
+  
+  .container {
+    background-color: aliceblue;
+    padding: 20px;
+    border-radius: 15px;
+    margin: 20px;
+    margin-top: 0;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    flex: 1;
+    min-width: 300px;
+  }
+  
+  .calculator {
+    background-color: #ffffff;
+    border: 1px solid #ddd;
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .calculator input[type="text"], .calculator input[type="number"] {
+    width: 100%;
+    margin: 5px 0;
+    padding: 10px;
+    border-radius: 10px;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+  }
+  
+  .calculator button {
+    width: 48%;
+    margin: 5px 1%;
+    padding: 20px;
+    border-radius: 10px;
+    border: none;
+    background-color: #007bff;
+    color: white;
+    font-size: 1.2em;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .calculator button:hover {
+    background-color: #0056b3;
+  }
+  
+  .calculator .result {
+    margin-top: 10px;
+    padding: 10px;
+    background: #f0f0f0;
+    border-radius: 10px;
+    box-sizing: border-box;
+  }
+  
+  .calculator-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 3px;
+  }
+  
+  /* Dispositivos médios, IPHONE 15/ iPad mini */
+  @media (min-width: 430px) and (max-width: 1024px) {
+    .calculators-container {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .container {
+      width: 80%;
+      margin: 10px auto;
+    }
+  
+    .calculator button {
+      padding: 15px;
+      font-size: 1em;
+    }
+  }
+  
+  /* Dispositivos muito pequenos, IPHONES SE/ XR */
+  @media (max-width: 429px) {
+    .calculators-container {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .container {
+      width: 100%;
+      margin: 10px auto;
+    }
+  
+    .calculator button {
+      padding: 10px;
+      font-size: 0.9em;
+    }
+  }

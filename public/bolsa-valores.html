@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Consulta de Ações</title>
+    <link rel="stylesheet" href="assets/css/bolsa-valores.css">
+</head>
+<body>
+    <header class="header">
+        <img src="assets/img/Logo.png" alt="">
+        <div class="menu">
+            <!-- adicionar links de menu -->
+        </div>
+    </header>
+
+    <div class="section">
+        <div class="container">
+            <header class="header-body">
+                <h1>Consulta de Ações</h1>
+            </header>
+        </div>
+
+        <div class="pesquisa">
+            <input type="text" id="tickerInput" placeholder="Digite o ticker da ação (ex: PETR4)">
+            <button onclick="fetchStockInfo()">Consultar</button>
+        </div>
+
+        <div class="acoes-destaque" id="acoes-destaque">
+            <h2>Ações em Destaque - Maiores capitais</h2>
+            <div id="cards">
+                
+            </div>
+        </div>
+            
+
+        <div id="stockInfo" class="stock-info">
+            <!-- Informações da ação serão exibidas aqui -->
+            
+            </div>
+    </div>
+    <script src="assets/script/bolsa-valores.js"></script>
+</body>
+</html>

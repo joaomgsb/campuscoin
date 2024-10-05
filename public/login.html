@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="assets/css/login.css">
+    <title>Login</title>
+</head>
+<body>
+    <header class="header">
+        <img src="assets/img/Logo.png" alt="">
+        <div class="menu">
+            <a href="cadastro.html">Cadastrar</a>
+            <a href="login.html">Login</a>
+        </div>
+    </header>
+    <div class="section">
+        <div class="container">
+            <header class="header-body">
+                <h1>Login</h1>
+                <p>Entre com seu email e senha para acessar sua conta.</p>
+            </header>
+            <section id="news-container"></section>
+        </div>
+        <div class="card">
+            <form id="loginForm">
+                <div class="label"><img src="assets/img/email.png" alt=""><label for="email">Email</label></div>
+                <input type="email" id="email" placeholder="Digite seu email" required><br>
+                <div class="label"><img src="assets/img/password.png" alt=""><label for="password">Senha</label></div>
+                <input type="password" id="password" placeholder="Digite sua senha" required><br>
+                <div class="action">
+                    <button type="submit">Entrar com credenciais<img src="assets/img/Arrow.png"></button>
+                    <button id="facial" type="button">Entrar com facial<img src="assets/img/facial.png"></button>
+                </div>
+            </form>
+        </div>    
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script src="./assets/lib/face-api/face-api.min.js"></script>
+    <script type="module" src="assets/script/login.js"></script>
+</body>
+</html>
